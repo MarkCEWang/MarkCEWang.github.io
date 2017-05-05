@@ -237,8 +237,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	background-size: cover;
 	background-attachment: fixed;
 }
-#services H4 {
-	color: #E87E04;
+#services p {
+	color: #eea236;
+	font-weight: bold;
+}
+
+#services h4 {
+	color: #080808;
 	text-shadow: 1px 1px #fff;
 }
 .space {
@@ -392,6 +397,7 @@ ol.type li a:hover {
 	background: url(../img/skills-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	opacity: 50%;
 }
 #skills p {
 	color: #474d5d;
